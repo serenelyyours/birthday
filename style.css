@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe5ec;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1 {
+    color: #d14d72;
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+/* Message Styles */
+.message {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+button {
+    background-color: #d14d72;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #b8375a;
+}
+
+/* Surprise Message Styles */
+#surprise {
+    font-size: 1.5em;
+    color: #6a0dad;
+    margin-top: 20px;
+}
