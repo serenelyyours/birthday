@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Happy Birthday, [Name]! 🎉</h1>
+        <p class="message">Wishing you a fantastic day filled with joy, laughter, and cake!</p>
+        <img src="https://via.placeholder.com/400x300" alt="Birthday Celebration">
+        <button onclick="showSurprise()">Click for a Surprise 🎁</button>
+        <p id="surprise" style="display:none;">🎈 You're amazing! Have the best year ahead! 🎂</p>
+    </div>
+    <script>
+        function showSurprise() {
+            document.getElementById('surprise').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
